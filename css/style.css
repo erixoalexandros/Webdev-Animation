@@ -1,6 +1,5 @@
 .web-dev-animation {
   align-items: center;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   position: relative;
@@ -32,7 +31,7 @@
 
 .planet {
   animation: rotation 6s linear infinite reverse;
-  animation-delay: 19s;
+  animation-delay: 20s;
   height: 20%;
   left: 79.8%;
   position: absolute;
@@ -74,6 +73,15 @@
   left: 84.5%;
   position: absolute;
   top: 5%;
+}
+
+.small-sizer {
+  animation: rotation 2s linear infinite alternate;
+  /* animation-delay: 17s; */
+  height: 11.6%;
+  left: 90.9%;
+  position: absolute;
+  top: 3%;
 }
 
 .ball {
